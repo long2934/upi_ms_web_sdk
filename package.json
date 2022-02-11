@@ -1,0 +1,23 @@
+{
+    "name": "citcon-upi-web-sdk",
+    "description": "citcon UPI web SDK",
+    "version": "1.0.0",
+    "types": "./index.d.ts",
+    "keywords": [
+      "browser",
+      "script",
+      "load"
+    ],
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/long2934/upi_ms_web_sdk"
+    },
+    "scripts": {
+      "test": "zuul -- test/index.js",
+      "test-local": "zuul --local 9005 -- test/index.js"
+    },
+    "devDependencies": {
+      "zuul": "~2.1.0"
+    },
+    "license": "MIT"
+  }
